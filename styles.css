@@ -29,7 +29,7 @@ main {
 }
 
 .card {
-  max-width: 327px;
+    min-width: 327px;
   padding: 24px;
   gap: 24px;
   background-color: hsl(0, 0%, 12%);
@@ -82,9 +82,10 @@ main {
     background-color: hsl(75, 94%, 57%);
 }
 
-@media (min-width: 375px) {
+@media (min-width: 376px) {
   .card {
     min-width: 332px;
     max-width: 420px;
+    padding: 32px;
   }
 }
